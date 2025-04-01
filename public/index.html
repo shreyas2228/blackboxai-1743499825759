@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MomentCrafters - Event Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <span class="font-semibold text-gray-500 text-lg">MomentCrafters</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="#" class="py-4 px-2 text-blue-500 border-b-4 border-blue-500 font-semibold">Home</a>
+                    <a href="vendor-list.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Vendors</a>
+                    <a href="gallery.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Gallery</a>
+                    <a href="login.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Login</a>
+                    <a href="register.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center py-32" style="background-image: url('https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg')">
+        <div class="container mx-auto text-center text-white">
+            <h1 class="text-5xl font-bold mb-6">Plan Your Perfect Event</h1>
+            <p class="text-xl mb-12">Find the best vendors for your special occasion</p>
+            <a href="register.html" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Why Choose MomentCrafters?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <i class="fas fa-users fa-3x"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Trusted Vendors</h3>
+                    <p class="text-gray-600">Carefully vetted professionals for every event need.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <i class="fas fa-calendar-check fa-3x"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Easy Booking</h3>
+                    <p class="text-gray-600">Simple and secure booking process.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <i class="fas fa-hand-holding-usd fa-3x"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Competitive Pricing</h3>
+                    <p class="text-gray-600">Get the best value for your budget.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">MomentCrafters</h3>
+                    <p>Your perfect event starts here.</p>
+                </div>
+                <div class="grid grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                        <ul>
+                            <li class="mb-2"><a href="#" class="hover:text-blue-300">Home</a></li>
+                            <li class="mb-2"><a href="vendor-list.html" class="hover:text-blue-300">Vendors</a></li>
+                            <li class="mb-2"><a href="gallery.html" class="hover:text-blue-300">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                        <ul>
+                            <li class="mb-2"><a href="#" class="hover:text-blue-300">Privacy Policy</a></li>
+                            <li class="mb-2"><a href="#" class="hover:text-blue-300">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>&copy; 2023 MomentCrafters. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
